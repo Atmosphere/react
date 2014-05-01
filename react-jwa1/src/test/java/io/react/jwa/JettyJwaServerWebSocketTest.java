@@ -32,7 +32,7 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer;
 import org.junit.Test;
 
-public class JwaServerWebSocketTest extends ServerWebSocketTestTemplate {
+public class JettyJwaServerWebSocketTest extends ServerWebSocketTestTemplate {
 
     Server server;
 
